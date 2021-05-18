@@ -1,0 +1,14 @@
+                                                Vistas de mi sitio
+
+Primera vista  (Pagina inicial):
+Quiero que en esta parte se muestre la imagen del restaurante, así como algunos de los platillos más famosos que tenemos
+
+Segunda vista (Menú y pedidos):
+En esta vista se encontrará el menú completo del restaurante y se tendrá la opción de pedir la comida en línea
+
+Tercera vista (historia del chef y restaurante):
+En esta vista se pondrá la historia del chef a cargo de nuestra cocina y la historia de cómo se fundó nuestro restaurante
+
+*En todas las paginas se mostrará un pie de página que llevará a las redes sociales de nuestro restaurante y otro botón donde se podrá mostrar nuestra dirección 
+
+-Escobar Díaz Víctor Manuel 
