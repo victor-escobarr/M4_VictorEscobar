@@ -1,0 +1,83 @@
+#redes{
+    position: absolute;
+    left: 16%;
+    top: 82%;
+
+    width: 860px;
+    height: 40px;
+    background-color: #756f6f;
+    border: black 2px solid;
+}
+
+#insta{
+    position: absolute;
+    left: 18%;
+    top: 82.5%;
+}
+
+#instagram{
+    position: absolute;
+    left: 21%;
+    top: 84%;
+    color: black;
+    font-family: sans-serif;
+}
+
+#face{
+    position: absolute;
+    left: 30%;
+    top: 82.8%;
+}
+
+#facebook{
+    position: absolute;
+    left: 34%;
+    top: 84%;
+    color: black;
+    font-family: sans-serif;
+}
+
+#tw{
+    position: absolute;
+    left: 43%;
+    top: 82.3%;
+   
+}
+
+#twitter{
+    position: absolute;
+    left: 47%;
+    top: 84%;
+    color: black;
+    font-family: sans-serif;
+}
+
+#yt{
+    position: absolute;
+    left: 56%;
+    top: 82.8%;
+  
+}
+
+#youtube{
+    position: absolute;
+    left: 60%;
+    top: 84%;
+    color: black;
+    font-family: sans-serif;
+}
+
+#gm{
+    position: absolute;
+    left: 69%;
+    top: 83%;
+    
+}
+
+#maps{
+    position: absolute;
+    left: 73%;
+    top: 84%;
+    color: black;
+    font-family: sans-serif;
+}
