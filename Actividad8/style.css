@@ -1,0 +1,34 @@
+body{
+    background-image: url(./img/Pergamino.jpg);
+}
+.card{
+    background-color: black;
+}
+#g{
+    background-color: #A98645;
+    border-color: black;
+    color: black;
+}
+#e{
+    background-color: #A98645;
+    border-color: black;
+    color: black;
+}
+#alert{
+    background-color: #A98645;
+    border-color: #341E09;
+}
+#l{
+    color:black;
+}
+#nav{
+    background-color: #A98645;
+    border-color: black;
+}
+#bot{
+    color: black;
+    background-image: url(./img/flecha.png);
+}
+#k{
+    color: black;
+}

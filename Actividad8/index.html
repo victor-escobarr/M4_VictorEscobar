@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad8</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--//////////////boopstrap///////////////-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <!--//////////////boopstrap///////////////-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+
+    
+<!--///////////////////////////////////////alert/////////////////////////////////////-->
+<div class="alert alert-warning alert-dismissible fade show" role="alert" id="alert">
+  <div id="l"><strong>Si usted no es un mago se le borrara la memoria al cerrar esta pagina</strong> </div>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" id="l"></button>
+</div>
+
+ <!--//////////////////////////////////////////Navbar///////////////////////////////-->
+<nav class="navbar navbar-expand-lg " id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="k"><strong>Howarts</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="bot">
+        <span class="navbar-toggler-icon" id="bot"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="k">Gryffindor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="k">Hufflepuff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="k">Ravenclaw</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="k">Slytherin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--//////////////Contenedor///////////////-->
+<div class="container">
+  <div class="row">
+    <!--//////////////////////////////////Form///////////////////////////////-->
+    <div class="col-xl-6"  class="col-lg-6" class="col-sm-12">
+      <form>
+        <div class="mb-3">
+          <h2></h2>
+          <label for="exampleInputEmail1" class="form-label"><h3>Solicitud para entrar a Howarts</h3></label>
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label> ¿Qué casa te gusta más? <br>
+            <select name="casas" required>
+                <option value="g">gryffindor</option>
+                <option value="h">hufflepuff</option>
+                <option value="r">ravenclaww</option>
+                <option value="s">slytherinn</option>
+            </select>
+          </label>
+        </div>
+        <div class="mb-3">
+          <label> ¿Tú familia ha estudiado en Hogwarts? <br>
+            <select name="casas" required>
+                <option value="y">Si</option>
+                <option value="n">No</option>
+            </select>
+          </label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Clickea aqui si no eres un Muggle</label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="e">Enviar</button>
+      </form>
+    </div>
+<!--////////////////////////////Carrusel//////////////////////////////////-->
+<div class="col-xl-6"  class="col-lg-6" class="col-sm-6">
+  
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carouse " >
+    <div class="carousel-inner" >
+      <div class="carousel-item active">
+        <img src="./img/hogwarts.png" class="d-block w-100" alt="hogwarts">
+      </div>
+      <div class="carousel-item" >
+        <img src="./img/Gryffindor.png" class="d-block w-100" alt="gryffindor">
+      </div>
+      <div class="carousel-item" >
+        <img src="./img/Hufflepuff.png" class="d-block w-100" alt="hufflepuff">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Ravenclaw.png" class="d-block w-100" alt="ravenclaww">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Slytherin.png" class="d-block w-100" alt="ravenclaww">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!--//////////////////////////////Card///////////////////////-->
+<!--///Gryffindor////-->
+<div class="col-xl-3"  class="col-lg-6" class="col-sm-12" id="cards">
+  <div class="card" style="width: 18rem; background-image: url(./img/Pergamino.jpg);">
+    <img src="./img/salaG.jpg" class="card-img-top" alt="gryffindor">
+    <div class="card-body">
+      <h5 class="card-title">Gryffindor</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary" id="g">Explorar</a>
+    </div>
+  </div>
+</div>
+<!--///Hufflepuff////-->
+<div class="col-xl-3"  class="col-lg-6" class="col-sm-12">
+  <div class="card" style="width: 18rem; background-image: url(./img/Pergamino.jpg);">
+    <img src="./img/SalaH.jpg" class="card-img-top" alt="hufflepuff">
+    <div class="card-body">
+      <h5 class="card-title">Hufflepuff</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary" id="g">Explorar</a>
+    </div>
+  </div>
+</div>
+<!--///ravenclaw////-->
+<div class="col-xl-3"  class="col-lg-6" class="col-sm-12" id="cards">
+  <div class="card" style="width: 18rem; background-image: url(./img/Pergamino.jpg);">
+    <img src="./img/salaR.png" class="card-img-top" alt="ravenclaw">
+    <div class="card-body">
+      <h5 class="card-title">Ravenclaw</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary" id="g">Explorar</a>
+    </div>
+  </div>
+</div>
+<!--////slytherin////-->
+<div class="col-xl-3"  class="col-lg-6" class="col-sm-12" id="cards">
+  <div class="card" style="width: 18rem; background-image: url(./img/Pergamino.jpg);">
+    <img src="./img/salaS.jpg" class="card-img-top" alt="slytherin">
+    <div class="card-body">
+      <h5 class="card-title">Slytherin</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary" id="g">Explorar</a>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
